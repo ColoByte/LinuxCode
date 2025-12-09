@@ -29,7 +29,6 @@ int main(){
         printf("num[%d] = %d\n", i, num[i]);
         i++;
     }
-    
     return 0;
 }
 
