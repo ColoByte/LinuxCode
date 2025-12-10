@@ -16,13 +16,28 @@
 //     return 0;
 // }
 
+// int main()
+// {
+//     int line = 0;
+//     while(line < 10)
+//     {
+//        printf("写第%d行代码，改变世界！\n", line + 1);
+//         line++;
+//     }
+//     return 0;
+// }
+
+int sum(int a, int b)
+{
+    return a + b;
+}
+
 int main()
 {
-    int line = 0;
-    while(line < 10)
-    {
-       printf("写第%d行代码，改变世界！\n", line + 1);
-        line++;
-    }
+    int m = 0;
+    int n = 0;
+    scanf("%d %d", &m, &n);
+    int result = sum(m, n);
+    printf("result = %d\n", result);
     return 0;
 }
